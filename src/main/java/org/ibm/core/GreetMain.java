@@ -9,7 +9,7 @@ public class GreetMain {
 		// TODO Auto-generated method stub
 		ApplicationContext ac=new ClassPathXmlApplicationContext("springcore.xml");
 		//identify bean by its id
-		Greet gt=(Greet)ac.getBean("g1");
+		Greet gt=(Greet)ac.getBean("g9");
 		System.out.println(gt.getMessage());
 
 

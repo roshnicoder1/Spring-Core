@@ -10,6 +10,12 @@ public class Greet {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+
+	public Greet(String message) {
+		super();
+		this.message = message;
+	}
+	
 	
 
 }
